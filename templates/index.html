@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+    <title>Digit Identifier!</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <h1>Anthony's Spectacular Digit Identifier! (OCR sounds lame.)</h1><br>
+    <h1>Upload a file here!</h1>
+    <form method=post enctype=multipart/form-data>
+        <input type=file name=file>
+        <strong><input id="upload" type=submit value=Upload></strong>
+    </form>
+    <form method=get>
+        
+    </form>
+    <span>
+        <strong>{{ result }}</strong><br><img src="{{ filepath }}">
+    </span>
+</body>
+
